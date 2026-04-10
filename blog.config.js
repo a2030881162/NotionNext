@@ -1,6 +1,6 @@
 const BLOG = {
   API_BASE_URL: process.env.API_BASE_URL || 'https://www.notion.so/api/v3', 
-  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '33d5870fcfcc8099916fcf5ab5c4b108',
+  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '6315870fcfcc8329889b0116965efda9',
   THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', 
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', 
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2026, 
