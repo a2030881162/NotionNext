@@ -6,7 +6,7 @@ const BLOG = {
   LANG: 'en-US', 
   SINCE: 2026,
   APPEARANCE: 'light', 
-  HOME_BANNER_IMAGE: '/bg.jpg',
+  HOME_BANNER_IMAGE: 'https://jasonwong-lighting.com/bg.jpg',
 
   AUTHOR: 'Jason Wong',
   BIO: 'International Interior & Architectural Lighting Design Studio',
