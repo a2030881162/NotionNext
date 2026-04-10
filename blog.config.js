@@ -2,31 +2,24 @@ const BLOG = {
   API_BASE_URL: process.env.API_BASE_URL || 'https://www.notion.so/api/v3',
   NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '6315870fcfcc8329889b0116965efda9',
   
-  // 1. 核心风格：国际设计师画廊风
-  THEME: 'fukasawa', 
-  LANG: 'en-US', // 英文界面，对接国外客户
+  // 1. 核心：换成落地页主题
+  THEME: 'landing', 
+  LANG: 'en-US',
   SINCE: 2026,
   APPEARANCE: 'light', 
 
-  // 2. 品牌信息 (全英文)
-  AUTHOR: 'Jason Wong',
-  BIO: 'International Interior & Architectural Lighting Design Studio',
+  // 2. 企业品牌信息
+  AUTHOR: 'Jason Wong Lighting',
+  BIO: 'Premier Interior & Architectural Lighting Solutions',
   LINK: 'https://jasonwong-lighting.com',
-  KEYWORDS: 'Lighting Design, Architectural Lighting, Professional Lighting Studio',
-  BLOG_FAVICON: '/favicon.ico',
-
-  // 3. 系统必要零件 (补齐了，不会再报错)
-  PSEUDO_STATIC: false, 
-  NEXT_REVALIDATE_SECOND: 60,
-  APPEARANCE_DARK_TIME: [18, 6],
-  ENABLE_RSS: true,
-  UUID_REDIRECT: false, // 刚才就是缺这个零件！
-  CUSTOM_MENU: true,
-  CAN_COPY: true,
-  LAYOUT_SIDEBAR_REVERSE: false,
   GREETING_WORDS: 'Innovation in Light, Excellence in Design.',
 
-  // 4. 核心配置文件引用
+  // 3. 关闭博客挂件（洗掉博客味）
+  WIDGET_PET: false, // 关掉那个左下角的卡通猫
+  ENABLE_RSS: false, // 关掉 RSS
+  MENU_SEARCH: false, // 关掉搜索框
+
+  // 必要引用
   ...require('./conf/comment.config'),
   ...require('./conf/contact.config'),
   ...require('./conf/post.config'),
@@ -44,8 +37,8 @@ const BLOG = {
   ...require('./conf/notion.config'),
   ...require('./conf/dev.config'),
 
-  CUSTOM_EXTERNAL_JS: [''],
-  CUSTOM_EXTERNAL_CSS: ['']
+  UUID_REDIRECT: false,
+  CUSTOM_MENU: true
 }
 
 module.exports = BLOG
