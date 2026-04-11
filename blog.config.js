@@ -20,6 +20,7 @@ const BLOG = {
   ENABLE_RSS: true,
   UUID_REDIRECT: false, 
   CUSTOM_MENU: true,
+  WIDGET_PET: false,
   CAN_COPY: true,
   LAYOUT_SIDEBAR_REVERSE: false,
   GREETING_WORDS: 'Innovation in Light, Excellence in Design.',
