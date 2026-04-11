@@ -8,7 +8,7 @@ const BLOG = {
   APPEARANCE: 'light', 
   HOME_BANNER_IMAGE: 'https://jasonwong-lighting.com/bg.jpg',
 
-  AUTHOR: 'Jason Wong',
+  AUTHOR: 'Jason Wong Lighting Design',
   BIO: 'International Interior & Architectural Lighting Design Studio',
   LINK: 'https://jasonwong-lighting.com',
   KEYWORDS: 'Lighting Design, Architectural Lighting, Professional Lighting Studio',
