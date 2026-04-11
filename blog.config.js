@@ -2,10 +2,10 @@ const BLOG = {
   API_BASE_URL: process.env.API_BASE_URL || 'https://www.notion.so/api/v3',
   NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '6315870fcfcc8329889b0116965efda9',
   
-  THEME: 'fukasawa', 
+  THEME: 'nobelium', 
   LANG: 'en-US', 
   SINCE: 2026,
-  APPEARANCE: 'light', 
+  APPEARANCE: 'dark', 
   HOME_BANNER_IMAGE: 'https://jasonwong-lighting.com/bg.jpg',
 
   AUTHOR: 'Jason Wong Lighting Design',
